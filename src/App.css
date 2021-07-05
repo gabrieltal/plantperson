@@ -7,10 +7,7 @@
 
 .nav-links { margin-top: 12px; margin-bottom: 12px; }
 
-.App-link:hover {
-  text-decoration: underline;
-  font-weight: bold;
-}
+.App-link:hover { text-decoration: underline; }
 
 .d-flex { display: flex; }
 .flex-column { flex-direction: column; }
