@@ -1,5 +1,6 @@
 import logo from './logo.png';
 import './App.css';
+import Garden from './components/Garden';
 
 function App() {
   return (
@@ -15,21 +16,14 @@ function App() {
             <a className="App-link" href="https://github.com/gabrieltal/plantperson" target="_blank" rel="noopener noreferrer">
               Github
             </a>
+            <a className="App-link" href="https://brownwoolpants.com" target="_blank" rel="noopener noreferrer">
+              Personal Site
+            </a>
           </div>
         </nav>
       </header>
 
-      <main className="App-main">
-        <div className="App-main-content">
-          <h1>Gabriel Talavera</h1>
-          <p>
-            Hello! This website is a work in progress. For my personal website checkout
-            <a className="App-link" href="https://brownwoolpants.com" target="_blank" rel="noopener noreferrer">
-            brownwoolpants.com.
-            </a>
-          </p>
-        </div>
-      </main>
+      <Garden />
     </div>
   );
 }
