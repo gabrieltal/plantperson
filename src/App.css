@@ -36,3 +36,17 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.row {
+  display: flex;
+}
+
+.square {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  background-color: green;
+  border: 2px solid black;
+  margin: 1px;
+}
