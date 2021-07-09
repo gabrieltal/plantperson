@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class NextPiece extends React.Component {
   renderSquare(piece, index) {
-    return <div className="square" key={index}>{piece.value}</div>;
+    return <div className="preview-square" key={index}>{piece.value}</div>;
   }
 
   render() {

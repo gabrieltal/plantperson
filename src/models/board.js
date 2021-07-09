@@ -4,10 +4,10 @@ export default class Board {
   constructor() {
     this.rowSize = 4;
     this.colSize = 4;
-    this.squares = this.initializeBoard();
+    this.squares = this.initializeGrid();
   }
 
-  initializeBoard() {
+  initializeGrid() {
     const squares = [];
     let index = 0;
     let row;
@@ -27,7 +27,7 @@ export default class Board {
     return this.squares[row];
   }
 
-  addPieceToBoard(square, piece) {
+  addPiece(square, piece) {
     this.squares[square.x][square.y].piece = piece;
   }
 }

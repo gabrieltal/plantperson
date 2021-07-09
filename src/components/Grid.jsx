@@ -22,10 +22,6 @@ export default class Grid extends React.Component {
       boardDisplay.push(this.renderRow(this.props.board.row(index), index));
     }
 
-    return (
-      <div className="board">
-        {boardDisplay}
-      </div>
-    );
+    return <div className="board">{boardDisplay}</div>;
   }
 }
