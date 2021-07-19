@@ -4,14 +4,25 @@ export default class Piece {
   }
 
   static next(turn) {
-    if (turn < 3) {
-      return new this(1);
+    let prob = Math.floor(Math.random() * 10);
+    let possibilities;
+
+    if (turn < 10) {
+      possibilities = [1, 1, 1, 1, 1, 1, 1, 1, 3, 3];
+    } else if (turn < 25) {
+      possibilities = [1, 1, 1, 3, 3, 3, 3, 3, 9, 9];
+    } else if (turn < 50) {
+      possibilities = [1, 1, 3, 3, 3, 9, 9, 9, 27, 27];
+    } else if (turn < 75) {
+      possibilities = [1, 3, 3, 9, 9, 27, 27, 81, 81, 243];
     } else {
-      return new this(3);
+      possibilities = [1, 3, 9, 27, 81, 243, 243, 729, 729, 2187];
     }
+
+    return new this(possibilities[prob]);
   }
 }
-//
+
 // 1 1 1
 // 3 3 3
 // 9 9 9
