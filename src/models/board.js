@@ -2,8 +2,8 @@ import Square from './square';
 
 export default class Board {
   constructor() {
-    this.rowSize = 4;
-    this.colSize = 4;
+    this.rowSize = 6;
+    this.colSize = 6;
     this.squares = this.initializeGrid();
   }
 
