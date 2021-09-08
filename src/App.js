@@ -1,14 +1,20 @@
 import './App.css';
+import React, { Component } from 'react';
 import Garden from './components/Garden';
+import Home from './components/Home';
 import Nav from './components/Nav';
+import { HashRouter, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Garden />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <HashRouter basename="/">
+        <Nav />
+        <Route exact path="/" component={Home} />
+        <Route path="/game" component={Garden} />
+      </HashRouter>
+    )
+  }
 }
 
 export default App;
