@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../logo.png';
-import logoExpanded from '../plantperson-expanded.png';
+import logo from '../assets/images/logo.png';
+import logoExpanded from '../assets/images/plantperson-expanded.png';
 
 export default class Nav extends React.Component {
   constructor(props) {

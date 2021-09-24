@@ -1,12 +1,12 @@
 import React from 'react';
-import chess from '../chess.svg';
-import github from '../github.svg';
-import instagram from '../instagram.svg';
-import spotify from '../spotify.svg';
-import stackoverflow from '../stackoverflow.svg';
-import twitter from '../twitter.svg';
-import youtube from '../youtube.svg';
-import linkedin from '../linkedin.svg';
+import chess from '../assets/images/chess.svg';
+import github from '../assets/images/github.svg';
+import instagram from '../assets/images/instagram.svg';
+import spotify from '../assets/images/spotify.svg';
+import stackoverflow from '../assets/images/stackoverflow.svg';
+import twitter from '../assets/images/twitter.svg';
+import youtube from '../assets/images/youtube.svg';
+import linkedin from '../assets/images/linkedin.svg';
 
 export default class Home extends React.Component {
   render() {
@@ -16,9 +16,7 @@ export default class Home extends React.Component {
           <h1>Gabriel Talavera</h1>
           <p>
             Hello. I am a software engineer. I love to code.
-            I have experience working on Ruby on Rails, JavaScript, jQuery and PostGreSQL with minor experience with Vue, PHP, Laravel and React.
-            Coding allows me to express myself with projects that reflect my passions and curiosities.
-            Refactoring code and debugging issues give me strength.
+            Refactoring code and debugging gives me strength.
             When I'm not coding I enjoy writing, painting, film and taking care of my pets and plants.
           </p>
         </main>

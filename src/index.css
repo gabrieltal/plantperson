@@ -8,16 +8,15 @@ body {
   background-color: #FFFDD0;
   color: black;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-h1 {
-  font-family: 'Courier New';
-}
-
+code { font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+h1 { font-family: 'Courier New'; }
 p {
   font-size: 1rem;
   font-family: 'Courier New';
+}
+footer {
+  position: absolute;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
 }
