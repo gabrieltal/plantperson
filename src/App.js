@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Garden from './components/Garden';
 import Home from './components/Home';
 import Nav from './components/Nav';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
