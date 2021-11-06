@@ -18,6 +18,11 @@
   margin-left: 4px;
   margin-right: 4px;
 }
+.mx-2 {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.ml-3 { margin-left: 8px; }
 
 /* Flex */
 .d-flex, .row { display: flex; }
