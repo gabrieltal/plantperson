@@ -8,6 +8,7 @@ import twitter from '../assets/images/twitter.svg';
 import youtube from '../assets/images/youtube.svg';
 import linkedin from '../assets/images/linkedin.svg';
 import brownWoolPants from '../assets/images/brownwoolpants.png';
+import letterboxd from '../assets/images/letterboxd.svg';
 
 export default class Home extends React.Component {
   render() {
@@ -16,9 +17,7 @@ export default class Home extends React.Component {
         <main>
           <h1>Gabriel Talavera</h1>
           <p>
-            Hello. I am a software engineer. I love to code.
-            Refactoring code and debugging gives me strength.
-            When I'm not coding I enjoy writing, painting, film and taking care of my pets and plants.
+            Hello. I am a software engineer. I love to code and when I'm not coding I enjoy writing, painting, movies and taking care of my pets and plants.
           </p>
         </main>
         <footer>
@@ -26,6 +25,7 @@ export default class Home extends React.Component {
             <div className="d-flex align-items-center">
               <a className="mx-2 email no-underline" href="mailto:gabrielvt6@gmail.com" target="_blank" rel="noopener noreferrer"><span className="email-icon">🕵🏻</span><span className="sr-only">Email</span></a>
               <a className="ml-3 mx-2" href="https://brownwoolpants.com" target="_blank" rel="noopener noreferrer"><img alt="brown wool pants" src={brownWoolPants} height="20px" /><span className="sr-only">BrownWoolPants</span></a>
+              <a className="ml-3 mx-2 spotify" href="https://boxd.it/3kULv" target="_blank" rel="noopener noreferrer"><img alt="letterboxd" src={letterboxd} /><span className="sr-only">LetterBoxD</span></a>
               <a className="mx-2 spotify" href="https://www.github.com/gabrieltal" target="_blank" rel="noopener noreferrer"><img alt="github" src={github} /><span className="sr-only">Github</span></a>
               <a className="mx-2 blue-fill-hover" href="https://www.twitter.com/brownwoolpants" target="_blank" rel="noopener noreferrer"><img alt="twitter" src={twitter}/><span className="sr-only">Twitter</span></a>
               <a className="mx-2 instagram" href="https://www.instagram.com/brownwoolpants" target="_blank" rel="noopener noreferrer"><img alt="instagram" src={instagram}/><span className="sr-only">Instagram</span></a>
