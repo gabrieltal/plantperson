@@ -9,7 +9,11 @@ body {
   color: black;
 }
 code { font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
-h1 { font-family: 'Courier New'; }
+h1 {
+  font-family: cooper-black-std, serif;
+  font-style: normal;
+  font-weight: 400;
+}
 p {
   font-size: 1rem;
   font-family: 'Courier New';

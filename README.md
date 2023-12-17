@@ -4,7 +4,7 @@
 
 ## Description
 
-My personal website. Just links on where to find me on the internet and a basic bio.
+My personal website. Just links on where to find me on the internet and a super basic bio.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
