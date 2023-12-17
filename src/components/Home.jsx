@@ -15,7 +15,7 @@ export default class Home extends React.Component {
           <h1>Gabriel Talavera</h1>
           <p>
             Hello. My name is Gabriel and I am a software engineer.
-            Here I am, on the internet!
+            Here I am, on the internet! I've traveled a great distance to get here.
             I love to code and when I'm not coding I enjoy writing, painting, watching movies, thrifting and taking care of my pets and plants.
           </p>
         </main>
