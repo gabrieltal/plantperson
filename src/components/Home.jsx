@@ -1,5 +1,6 @@
 import React from 'react';
 import chess from '../assets/images/chess.svg';
+import depop from '../assets/images/depop.svg';
 import github from '../assets/images/github.svg';
 import goodreads from '../assets/images/goodreads.svg';
 import instagram from '../assets/images/instagram.svg';
@@ -32,6 +33,7 @@ export default class Home extends React.Component {
               <a className="mx-2" href="https://chess.com/member/plant_person" target="_blank" rel="noopener noreferrer"><img alt="chess" src={chess}/><span className="sr-only">Chess</span></a>
               <a className="mx-2" href="https://www.youtube.com/channel/UCKRJ1N_6m16aQEqviKk5Hxw" target="_blank" rel="noopener noreferrer"><img alt="youtube" src={youtube}/><span className="sr-only">Youtube</span></a>
               <a className="mx-2" href="https://www.instagram.com/brownwoolpants" target="_blank" rel="noopener noreferrer"><img alt="instagram" src={instagram}/><span className="sr-only">Instagram</span></a>
+              <a className="mx-2" href="https://www.depop.com/oldgrandpagabriel/" target="_blank" rel="noopener noreferrer"><img alt="depop" src={depop}/><span className="sr-only">Depop</span></a>
             </div>
           </div>
         </footer>
