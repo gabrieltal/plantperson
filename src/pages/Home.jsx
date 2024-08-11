@@ -1,6 +1,5 @@
 import Nav from '../components/Nav';
 
-import '../assets/stylesheets/Home.css';
 import chess from '../assets/images/chess.svg';
 import depop from '../assets/images/depop.svg';
 import github from '../assets/images/github.svg';
@@ -13,7 +12,7 @@ import youtube from '../assets/images/youtube.svg';
 
 export default function Home() {
   return (
-    <div className="display-flex flex-column justify-content-center align-items-center">
+    <div className="height-100vh display-flex flex-column align-items-center">
       <Nav />
       <main className="Main-content margin-x--sm">
         <h1>Gabriel Talavera</h1>

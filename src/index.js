@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './assets/stylesheets/reset.css';
+import './assets/stylesheets/App.css';
 import Home from './pages/Home';
 import Art from './pages/Art';
 import Sad from './pages/Sad';
@@ -28,7 +29,9 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );
 
