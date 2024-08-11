@@ -1,4 +1,8 @@
 import React from 'react';
+
+import Nav from '../components/Nav';
+
+import '../assets/stylesheets/Home.css';
 import chess from '../assets/images/chess.svg';
 import depop from '../assets/images/depop.svg';
 import github from '../assets/images/github.svg';
@@ -13,6 +17,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="App-main">
+        <Nav />
         <main>
           <h1>Gabriel Talavera</h1>
           <p>
