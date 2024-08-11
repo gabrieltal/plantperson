@@ -1,32 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb2d4360.chunk.css",
-    "main.js": "/static/js/main.c2202c53.chunk.js",
-    "main.js.map": "/static/js/main.c2202c53.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9a8e1e65.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9a8e1e65.js.map",
-    "static/js/2.48222da9.chunk.js": "/static/js/2.48222da9.chunk.js",
-    "static/js/2.48222da9.chunk.js.map": "/static/js/2.48222da9.chunk.js.map",
-    "static/js/3.6ec02d17.chunk.js": "/static/js/3.6ec02d17.chunk.js",
-    "static/js/3.6ec02d17.chunk.js.map": "/static/js/3.6ec02d17.chunk.js.map",
+    "main.css": "/static/css/main.6b9ff54a.css",
+    "main.js": "/static/js/main.e472717c.js",
+    "static/js/488.da43fd80.chunk.js": "/static/js/488.da43fd80.chunk.js",
+    "static/media/logo.png": "/static/media/logo.0a5f11fc25df9296f0cb.png",
+    "static/media/plantperson-expanded.png": "/static/media/plantperson-expanded.12c4e9bc0b520c7356b5.png",
+    "static/media/goodreads.svg": "/static/media/goodreads.fa94977897fab2947761615906b79fa2.svg",
+    "static/media/letterboxd.svg": "/static/media/letterboxd.43455aaf76f5ccc164c9faec4d79ad68.svg",
+    "static/media/github.svg": "/static/media/github.dd737df8b35df8127197bb123845d51c.svg",
+    "static/media/instagram.svg": "/static/media/instagram.ef09c3bbdf433efba2eed5c91e56a454.svg",
+    "static/media/spotify.svg": "/static/media/spotify.bb492dd67f425b9bcc989f08c347c651.svg",
+    "static/media/chess.svg": "/static/media/chess.9a8b541606b8176f0c428ccef674aeee.svg",
+    "static/media/youtube.svg": "/static/media/youtube.1d5e69ef1fd2b04c631b2c3b390655d2.svg",
     "index.html": "/index.html",
-    "static/css/main.eb2d4360.chunk.css.map": "/static/css/main.eb2d4360.chunk.css.map",
-    "static/js/2.48222da9.chunk.js.LICENSE.txt": "/static/js/2.48222da9.chunk.js.LICENSE.txt",
-    "static/media/chess.9a8b5416.svg": "/static/media/chess.9a8b5416.svg",
-    "static/media/github.dd737df8.svg": "/static/media/github.dd737df8.svg",
-    "static/media/goodreads.fa949778.svg": "/static/media/goodreads.fa949778.svg",
-    "static/media/instagram.ef09c3bb.svg": "/static/media/instagram.ef09c3bb.svg",
-    "static/media/letterboxd.43455aaf.svg": "/static/media/letterboxd.43455aaf.svg",
-    "static/media/linkedin.1bcf49d0.svg": "/static/media/linkedin.1bcf49d0.svg",
-    "static/media/logo.0a5f11fc.png": "/static/media/logo.0a5f11fc.png",
-    "static/media/plantperson-expanded.12c4e9bc.png": "/static/media/plantperson-expanded.12c4e9bc.png",
-    "static/media/spotify.bb492dd6.svg": "/static/media/spotify.bb492dd6.svg",
-    "static/media/youtube.1d5e69ef.svg": "/static/media/youtube.1d5e69ef.svg"
+    "static/media/linkedin.svg": "/static/media/linkedin.1bcf49d0e2e3c6b4494171a215dd7ec0.svg",
+    "static/media/depop.svg": "/static/media/depop.0fc847b8f3f923e49fe3e0bcc288caf5.svg",
+    "main.6b9ff54a.css.map": "/static/css/main.6b9ff54a.css.map",
+    "main.e472717c.js.map": "/static/js/main.e472717c.js.map",
+    "488.da43fd80.chunk.js.map": "/static/js/488.da43fd80.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a8e1e65.js",
-    "static/js/2.48222da9.chunk.js",
-    "static/css/main.eb2d4360.chunk.css",
-    "static/js/main.c2202c53.chunk.js"
+    "static/css/main.6b9ff54a.css",
+    "static/js/main.e472717c.js"
   ]
 }
