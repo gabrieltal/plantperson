@@ -1,5 +1,4 @@
 import Image from '../components/Image';
-import Nav from '../components/Nav';
 
 export default function Sad() {
   return (
