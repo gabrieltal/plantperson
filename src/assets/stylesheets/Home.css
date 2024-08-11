@@ -1,16 +1,1 @@
-.App-main {
-  margin: 0 20rem;
-}
-
-/* Media Queries */
-@media only screen and (max-width: 1200px) {
-  .App-main {
-    margin: 0 6rem;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .App-main {
-    margin: 0 2rem;
-  }
-}
+.Main-content { max-width: 800px; }
