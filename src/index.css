@@ -8,19 +8,48 @@ body {
   background-color: #FFFDD0;
   color: black;
 }
+
 code { font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+
 h1 {
   font-family: cooper-black-std, serif;
   font-style: normal;
   font-weight: 400;
 }
+
 p {
   font-size: 1rem;
   font-family: 'Courier New';
 }
+
 footer {
   position: absolute;
   height: 80px;
   bottom: 0;
   width: 100%;
+}
+
+/* Margin & Padding */
+.margin-x--sm {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.padding--md { padding: 16px; }
+
+/* Flex */
+.display-flex { display: flex; }
+.flex-column { flex-direction: column; }
+.align-items-center { align-items: center; }
+.justify-content-center { justify-content: center; }
+
+/* Util */
+.no-underline { text-decoration: none; }
+.height-100 { height: 100%; }
+.display-none, .screen-reader-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
 }

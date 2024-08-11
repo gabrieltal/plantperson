@@ -22,18 +22,18 @@ export default class Nav extends React.Component {
     if (status === this.state.status) {
       return '';
     } else {
-      return 'd-none';
+      return 'display-none';
     }
   }
 
   render() {
     return (
       <header className="App-header">
-        <nav className="navbar d-flex flex-column align-items-center">
+        <nav className="padding--md display-flex flex-column align-items-center">
           <a href="/" id="logo" onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>
             <span className={'default ' + this.classByStatus('normal')}><img src={logo} className="App-logo" alt="logo" height="80px" width="50px"/></span>
             <span className={'expanded ' + this.classByStatus('expanded')}><img src={logoExpanded} height="80px" width="50px" alt="cute little plant person logo" /></span>
-            <span className="sr-only">Home</span>
+            <span className="screen-reader-only">Home</span>
           </a>
         </nav>
       </header>
