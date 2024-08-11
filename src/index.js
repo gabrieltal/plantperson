@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './pages/Home';
 import Art from './pages/Art';
+import Sad from './pages/Sad';
 import reportWebVitals from './reportWebVitals';
 import {
   createHashRouter,
@@ -18,6 +19,10 @@ const router = createHashRouter([
   {
     path: '/art',
     element: <Art />,
+  },
+  {
+    path: '/sad',
+    element: <Sad />,
   }
 ]);
 
