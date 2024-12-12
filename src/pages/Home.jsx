@@ -2,7 +2,6 @@ import Nav from '../components/Nav';
 import InternetLink from '../components/InternetLink';
 
 import chess from '../assets/images/chess.svg';
-import depop from '../assets/images/depop.svg';
 import github from '../assets/images/github.svg';
 import goodreads from '../assets/images/goodreads.svg';
 import instagram from '../assets/images/instagram.svg';
