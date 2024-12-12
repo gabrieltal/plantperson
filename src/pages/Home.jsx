@@ -35,7 +35,6 @@ export default function Home() {
             <InternetLink title="Chess" image={chess} href="https://chess.com/member/plant_person" />
             <InternetLink title="Youtube" image={youtube} href="https://www.youtube.com/channel/UCKRJ1N_6m16aQEqviKk5Hxw" />
             <InternetLink title="Instagram" image={instagram} href="https://www.instagram.com/brownwoolpants" />
-            <InternetLink title="Depop" image={depop} href="https://www.depop.com/oldgrandpagabriel/" />
           </div>
         </div>
       </footer>
